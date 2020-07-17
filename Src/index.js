@@ -9,8 +9,9 @@ import UserInfo from './Scripts/UserInfo.js'
 
 
 // Подключение к серверу
+const API_URL = NODE_ENV === 'production' ? 'https://praktikum.tk' : 'http://praktikum.tk';
 const config = {
-  url: 'https://praktikum.tk/cohort11/',
+  url: `${API_URL}/cohort11/`,
   headers: {
     authorization: 'aafbd586-86fd-433f-8d97-fd0d2e79138b',
   }
