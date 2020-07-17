@@ -1,4 +1,12 @@
-'use strict';
+import './pages/index.css'
+import Api from './Scripts/Api.js'
+import Card from './Scripts/Card.js'
+import CardList from './Scripts/CardList.js'
+import FormValidator from './Scripts/FormValidator.js'
+import Popup from './Scripts/Popup.js'
+import PopupImg from './Scripts/PopupImg.js'
+import UserInfo from './Scripts/UserInfo.js'
+
 
 // Подключение к серверу
 const config = {

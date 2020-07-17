@@ -1,9 +1,4 @@
-class UserInfo {
-  /**
-   * Можно лучше:
-   * Сохранять nameField и aboutField в конструкторе, чтобы не передавать их при каждом updateUserInfo
-   */
-
+export default class UserInfo {
   setUserInfo = (nameNew,aboutNew) => {
     this.name = nameNew;
     this.about = aboutNew;

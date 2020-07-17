@@ -1,4 +1,4 @@
-class PopupImg {
+export default class PopupImg {
   constructor(popup,closeButton) {
     this.popup = popup;
     this.closeButton = closeButton;
