@@ -1,0 +1,7 @@
+@import url(./_position/error-message_position_upper.css);
+
+.error-message {
+    font-size: 12px;
+    line-height: 15px;
+    color: #FF0000;
+}
