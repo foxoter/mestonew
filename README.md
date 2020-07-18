@@ -1,6 +1,7 @@
 # Mesto
+###### 0.0.1
 
-Single page application built in 3 training iterations to learn DOM, OOP, API. 
+Instagram prototype built to learn how Webpack works. 
 
 Functionality:
 * add new cards
@@ -13,7 +14,15 @@ Functionality:
 * HTML 
 * CSS
 * JS
+* Webpack
 
-## See the page
+## Installing
 
-[Website link](https://foxoter.github.io/mesto/)
+* Clone repo
+* Run `npm init` to set the dependencies
+* Use `npm run build` for Prod version
+* Use `npm run dev` for Dev version
+
+## Try it online
+
+[App link](https://foxoter.github.io/mestonew/)

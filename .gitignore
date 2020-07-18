@@ -1,1 +1,5 @@
 .DS_Store
+.nojekyll
+node_modules
+dist
+.idea

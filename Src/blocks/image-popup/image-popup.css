@@ -1,6 +1,6 @@
-@import url(./__container/image-popup__container.css);
-@import url(./__picture/image-popup__picture.css);
-@import url(./__close/image-popup__close.css);
+@import url(__container/image-popup__container.css);
+@import url(__picture/image-popup__picture.css);
+@import url(__close/image-popup__close.css);
 
 .image-popup {
     position: fixed;
