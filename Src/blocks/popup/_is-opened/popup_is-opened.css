@@ -9,3 +9,7 @@
 .image-popup.popup_is-opened {
   display: flex;
 }
+
+.avatar-popup.popup_is-opened {
+  display: flex;
+}
