@@ -5,7 +5,12 @@
   border-radius: 50%;
   background-size: cover;
   background-position: center;
-  background-image: url(../../../images/avatar.jpg);
+}
+
+.user-info__photo:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.5s linear;
 }
 
 @media screen and (max-width: 980px) {

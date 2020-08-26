@@ -1,7 +1,6 @@
 export default class CardList {
   constructor(container) {
     this.container = container;
-    // this.collection = collection;
   }
 
   // добавить элемент карточки в контейнер

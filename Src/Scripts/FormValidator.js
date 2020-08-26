@@ -27,7 +27,6 @@ export default class FormValidator {
   }
 
   setSubmitButtonState () {
-
     const buttonState = this.inputs.every(function (item) {
       return item.validity.valid;
     });
